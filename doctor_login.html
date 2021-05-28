@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VHSBD</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet"
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dlogin.css">
+</head>
+<body>
+	<div class="Header">
+		<div class="logo">
+			<img class="logopic" 
+			src ="logo.png" alt="My sample image" height="100">
+			
+		</div>
+		<div class ="navbar">
+			<nav>
+     <ul class="navlinks">
+     	<li><a class="active" href="home.html">Home</a></li>
+     	
+     	<li><a href="patient_login.html">Patient Login</a></li>
+     	<li><a href="patient_signup.html">Patient SignUp</a></li>	
+     </ul>	
+	</nav>
+	</div>
+	</div>
+	<form action="doctor_login.php" method="POST">
+	<div class="mainbody">
+		<div class="container">
+			<p class="login">Login to Your VHSBD Account as a Doctor </p>
+			<div class="centerbox">
+				<div class="cb">
+				<p class="boxinfo">User name</p>
+				<input type="text" name ="uname"class ="padding"placeholder="Enter Your UserName">
+				<p class="boxinfo">BMDC Reg. no:</p>
+				<input type="text" name ="bmdcreg" class ="padding"placeholder="Enter Your BMDC Reg. no.">
+                <p class="boxinfo">Password</p>
+                <input type="password" name ="password"class ="padding2"placeholder="Enter Your Password"><br>
+                 <a href  ="login.html" class="forgot">  Forgot Password ?</a><br>
+                 <button class="button2">Login</button>
+                </div>
+			</div>
+			<p class="login2">Don't have a VHS Account ? </p>
+			<a href="index.html">
+			<button class="button"><a href="doctor_signup.html">Create Account</a></button>
+		    </a> 
+		</div>
+	</div>
+</form>	
+
+</body>
+</html>

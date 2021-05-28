@@ -1,0 +1,136 @@
+.Header{
+	width:70%;
+	margin:0 auto;
+	display:grid;
+	grid-template-columns: 10% 90%; 
+	margin-bottom: 0px;
+	
+}
+
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	list-style:none;
+	box-sizing: border-box  ;
+}
+nav{
+	
+	height:60px;
+	width:100%;
+}
+nav ul{
+	float:right;
+	
+
+}
+nav ul li{
+	display:inline-block;
+	line-height: 80px;
+	margin:0 20px;
+	
+}
+nav ul li a{
+	color:#0B828C;
+	font-size: 20px;
+	border-radius: 5px;
+
+}
+a.active,a:hover{
+	background:white;
+	transition: .5s;
+}
+input{
+	font-size: 75%;
+	padding:5px;
+	width:20%;
+	border-radius: 10px;
+	border: 1.5px solid #daf0ff;
+	
+}
+
+.name{
+	text-align: center;
+	margin:0 auto;
+}
+.logopic{
+	align-items: center;
+}
+.logo{
+	margin:0 auto;
+}
+.mainbody{
+	
+	margin: 0 ;
+	padding: 0px;
+	border: 0px;
+
+}
+.Container{
+	background-color: #0B828C;
+	margin: 0 auto;
+	width:70%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 15px;
+	margin-bottom:40px;
+	margin-top: 20px; 
+}
+.welcome{
+	font-size: 300%;
+	color: white;
+	text-align: center;
+}
+.Services{
+	margin: 1%;
+	font-size: 200%;
+	color:white;
+	padding-left: .5%;
+}
+.description{
+	margin: 1%;
+	font-size: 150%;
+	color:white;
+	padding-left: .5%;
+}
+.button2{
+	width:10%;
+	background-color:  #D44638;
+	color:white;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 1.5px transparent solid;
+	margin: 1%;
+}
+.wrapper{
+	
+	margin:1%; 
+}
+.pic{
+	align-items: right;
+	text-align: right;
+	align-self: right;
+	align-content: right;
+}
+
+.Type{
+	margin-bottom: 5px;
+	font-size: 20px;
+	color:white;
+}
+.type{
+	margin-bottom: 5px;
+	font-size: 30px;
+	color:white;
+	text-align: center;
+}
+
+.select{
+	font-size: 15px;
+	padding:12px;
+	width:80%;
+	border-radius: 20px;
+	border: 1.5px solid #daf0ff;
+	padding-left: 20px;
+}

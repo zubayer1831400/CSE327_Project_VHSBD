@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VHSBD</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet"
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="dsignin.css">
+</head>
+<body>
+	<div class="Header">
+		<div class="logo">
+			<img class="logopic" 
+			src ="logo.png" alt="My sample image" height="100">
+			
+		</div>
+		<div class ="navbar">
+			<nav>
+     <ul class="navlinks">
+     	<li><a class="active" href="home.html">Home</a></li>
+     	
+     	<li><a href="patient_login.html">Patient Login</a></li>
+     	<li><a href="patient_signup.html">Patient SignUp</a></li>	
+     </ul>	
+	</nav>
+	</div>
+	</div>
+
+	<form action="doctor_signup.php" method="POST">
+	<div class="mainbody">
+		<div class="box">
+		    <p class="account">Creat your VHSBD Account as a Doctor</p>
+		    <p class="B">Already have an account ? <a href  ="doctor_login.html">  Login</a></p>
+		 </div>   
+	    <div class="Container">
+	    	<div class="Wrapeer1">
+	    	<div>	
+	    	<p class="Type">Name</p>
+	    	<input type="text" name ="fname"  required placeholder="Enter Your Name">
+	    	<p class="Type">Email</p>
+            <input type="email" name ="email"  required placeholder="Enter Your Email Adress">	
+            </div>
+
+            <div>	
+	    	<p class="Type">Contact no.</p>
+	    	<input type="text" name ="number" required placeholder="Enter Your Contact no.">	
+	    	<p class="Type">Date of Birth</p>
+	    	<input type ="date"  name="dateOfBirth" required>
+            </div>
+            <div>
+            <p class="Type">Gender</p>
+            <select class ="select" name="gender" required>
+            <option disabled selected>Choose Gender</option>
+      		<option value="male">Male</option>
+            <option value="female">Female</option>
+      	    </select>	
+            </div>
+            <div>
+            <p class="Type">Specialization</p>
+            <select class ="select"name="specialization" required>
+            <option disabled selected>Choose Specialization</option>
+      		<option value="Cardiology">Cardiology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Psychiatry">Psychiatry</option>
+            <option value="Respiratory medicine">Respiratory medicine</option>
+            <option value="Rheumatolog">Rheumatology</option>
+            <option value="Nephrology">Nephrology</option>
+            <option value="Endocrinology and Metabolism">Endocrinology and Metabolism</option>
+            <option value="Dermatology and Venereology">Dermatology and Venereology</option>
+            <option value="Gastroenterology">Gastroenterology</option>
+            <option value="Hepatology">Hepatology</option>
+            <option value="Hematology">Hematology</option>
+            <option value="Oncology">Oncology</option>
+            <option value="Internal Medicine"> Internal Medicine</option>
+      	    </select>	
+            </div>
+            <div>
+            <p class="Type">Prefarable Time (From)</p>
+            <select class ="select"name="from" required>
+            <option disabled selected>Prefarable Time</option>
+      		<option value="8:00 am">8:00 am</option>
+            <option value="9:00 am">9:00 am</option>
+            <option value="10:00 am">10:00 am</option>
+            <option value="11:00 am">11:00 am</option>
+            <option value="12:00 pm">12:00 pm</option>
+            <option value="1:00 pm">1:00 pm</option>
+            <option value="2:00 pm">2:00 pm</option>
+            <option value="3:00 pm">3:00 pm</option>
+            <option value="4:00 pm">4:00 pm</option>
+            <option value="5:00 pm">5:00 pm</option>
+            <option value="6:00 pm">6:00 pm</option>
+            <option value="7:00 pm">7:00 pm</option>
+            <option value="8:00 pm">8:00 pm</option>
+            <option value="9:00 pm">9:00 pm</option>
+      	    </select>	
+            </div>
+            <div>
+            <p class="Type">Prefarable Time (To)</p>
+            <select class ="select"name="to" required>
+            <option disabled selected>Prefarable Time</option>
+            <option value="9:00 am">9:00 am</option>
+            <option value="10:00 am">10:00 am</option>
+            <option value="11:00 am">11:00 am</option>
+            <option value="12:00 pm">12:00 pm</option>
+            <option value="1:00 pm">1:00 pm</option>
+            <option value="2:00 pm">2:00 pm</option>
+            <option value="3:00 pm">3:00 pm</option>
+            <option value="4:00 pm">4:00 pm</option>
+            <option value="5:00 pm">5:00 pm</option>
+            <option value="6:00 pm">6:00 pm</option>
+            <option value="7:00 pm">7:00 pm</option>
+            <option value="8:00 pm">8:00 pm</option>
+            <option value="9:00 pm">9:00 pm</option>
+            <option value="9:00 pm">10:00 pm</option>
+            <option value="9:00 pm">11:00 pm</option>
+      	    </select>	
+            </div>
+            <div>
+            <p class="Type">Prefarable Day </p>
+            <select class ="select"name="day" required>
+            <option disabled selected>Prefarable Time</option>
+            <option value="9:00 am">Friday</option>
+            <option value="10:00 am">Saturday</option>
+            <option value="11:00 am">Sunday</option>
+            <option value="12:00 pm">Monday</option>
+            <option value="1:00 pm">Tuesday</option>
+            <option value="2:00 pm">Wednesday</option>
+            <option value="3:00 pm">Thursday</option>
+            
+      	    </select>	
+            </div>
+            </div>
+            
+
+         <div class="Wrapeer2">
+         	<div class="Adress">
+            <p class="Type">Address</p>
+            <input type="text" name ="address"placeholder="Enter Your Adress">
+            </div>
+            <div class="Qualification">
+            <p class="Type">Qualification</p>
+            <input type="text" name ="qualifications"placeholder="Enter Your Qualification ">
+            </div> 
+         	<div>	
+	    	<p class="Type">Educational Institution</p>
+	    	<input type="text" name ="eduins" placeholder="Enter Your Institution Name">
+	    	</div>
+	    	<div>	
+	    	<p class="Type">BMDC Reg.</p>
+	    	<input type="text" name ="bmdcreg" placeholder="Enter Your BMDC Reg.">
+	    	</div>
+	    	<div>	
+	    	<p class="Type">UserName</p>
+	    	<input type="text" name ="uname" placeholder="Enter Your User Name">
+	    	</div>
+	    	<div>	
+	    	<p class="Type">Password</p>
+	    	<input type="password"  name ="pass" placeholder="Enter Your Password">
+            </div> 
+	    </div>
+
+            <p class="policy">By clicking "SIGN IN" I agree to VHSBD Privacy Policy</p>
+            <div class="Wrapeer3">
+	        <div>	
+	    	<button class="button">SIGN IN</button>
+	    	</div>
+	        </div>
+	       
+	  </form>     
+	
+</body>
+</html>
